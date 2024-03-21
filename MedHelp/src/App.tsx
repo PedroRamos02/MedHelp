@@ -1,7 +1,7 @@
 import './App.css'
-import TelaInicial from './Components/TelaInicial'
+import { TelaInicial } from './Pages/TelaInicial'
 
-function App() {
+function App = () => {
 
   return (
     <>
