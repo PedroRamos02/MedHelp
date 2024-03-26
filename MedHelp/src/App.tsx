@@ -1,7 +1,7 @@
 import './App.css'
 import { TelaInicial } from './Pages/TelaInicial'
 
-function App = () => {
+const App = () => {
 
   return (
     <>
