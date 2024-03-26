@@ -1,25 +1,18 @@
 import styled from "styled-components"
 import { Button } from "../../Components/Button/button"
 import { Title } from "../../Components/Text"
+import { Wrapper, WrapperTittle } from "../../Themes/Wrapper.style"
 
 export const TelaInicial = () => {
-    
-    const paginaInic = styled.div`
-        display: display-flex;
-        justify-content: center;
-        background: "white";
-    `;
 
     return (
-        <>
-        <paginaInic>
+        <Wrapper>
             <Title>SUA SAÚDE</Title>
             <Title>NOSSA MISSÃO</Title>
-            <div>
+            <WrapperTittle>
                 <Button $primary>Agende agora</Button>
                 <Button $primary>Saiba mais</Button>
-            </div>
-        </paginaInic>
-        </>
+            </WrapperTittle>
+        </Wrapper>
     )
 }
