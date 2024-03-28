@@ -1,18 +1,18 @@
-import styled from "styled-components"
 import { Button } from "../../Components/Button/button"
-import { Title } from "../../Components/Text"
-import { Wrapper, WrapperTittle } from "../../Themes/Wrapper.style"
+import { SpanText, Title } from "../../Components/Text"
+import { WrapperButtons, WrapperTittle } from "../../Themes/Wrapper.style"
 
 export const TelaInicial = () => {
 
     return (
-        <Wrapper>
+        <WrapperTittle>
             <Title>SUA SAÚDE</Title>
-            <Title>NOSSA MISSÃO</Title>
-            <WrapperTittle>
+            <Title><SpanText>NOSSA</SpanText>  MISSÃO</Title>
+            <WrapperButtons>
                 <Button $primary>Agende agora</Button>
                 <Button $primary>Saiba mais</Button>
-            </WrapperTittle>
-        </Wrapper>
+            </WrapperButtons>
+        </WrapperTittle>
+        
     )
 }

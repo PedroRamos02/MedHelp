@@ -1,11 +1,12 @@
-import { DefaultTheme } from 'styled-components';
-
- const theme: DefaultTheme = {
+  const theme = {
    
-   colors: {
-      primary: '#F5F5F5',
+    colors: {
+      primary: '#FFFFFF',
       secundary: '#325CC8',
       tertiary: '#0D3290',
+    },
+    font: {
+      fontPrimary: '"Jost", sans-serif'
     }
  };
 
